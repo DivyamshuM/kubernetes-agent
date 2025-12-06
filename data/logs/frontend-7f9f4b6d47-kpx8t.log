@@ -1,0 +1,7 @@
+2024-02-03T10:01:12Z INFO Starting frontend server...
+2024-02-03T10:01:20Z INFO Serving traffic on port 3000
+2024-02-03T10:02:11Z WARN High latency detected: 880ms
+2024-02-03T10:02:15Z ERROR Failed to fetch user profile: timeout
+2024-02-03T10:02:16Z ERROR Upstream backend service unavailable
+2024-02-03T10:02:17Z INFO Retrying request (attempt 1)
+2024-02-03T10:02:18Z ERROR Retry failed

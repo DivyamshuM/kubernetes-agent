@@ -1,0 +1,16 @@
+metadata:
+  name: frontend-7f9f4b6d47-kpx8t
+  namespace: default
+status:
+  phase: Running
+  podIP: 10.244.0.15
+  conditions:
+    - type: Ready
+      status: "True"
+  containerStatuses:
+    - name: frontend
+      ready: true
+      restartCount: 0
+      state:
+        running:
+          startedAt: "2024-02-03T10:00:10Z"

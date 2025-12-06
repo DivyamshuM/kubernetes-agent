@@ -1,0 +1,21 @@
+metadata:
+  name: backend-5d88c9f4b6-qw9ts
+  namespace: default
+status:
+  phase: Running
+  podIP: 10.244.0.22
+  conditions:
+    - type: Ready
+      status: "False"
+  containerStatuses:
+    - name: backend
+      ready: false
+      restartCount: 3
+      lastState:
+        terminated:
+          reason: CrashLoopBackOff
+          exitCode: 137
+      state:
+        waiting:
+          reason: CrashLoopBackOff
+          message: "Backoff restarting failed container"

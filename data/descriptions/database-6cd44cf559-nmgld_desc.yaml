@@ -1,0 +1,18 @@
+metadata:
+  name: database-6cd44cf559-nmgld
+status:
+  phase: Running
+  podIP: 10.244.0.30
+  conditions:
+    - type: Ready
+      status: "True"
+  containerStatuses:
+    - name: database
+      ready: true
+      restartCount: 1
+      lastState:
+        terminated:
+          exitCode: 0
+      state:
+        running:
+          startedAt: "2024-02-03T10:00:05Z"

@@ -1,0 +1,6 @@
+2024-02-03T10:00:40Z INFO Starting backend API service...
+2024-02-03T10:00:42Z INFO Connected to Redis at redis:6379
+2024-02-03T10:01:12Z ERROR Redis connection lost: connection reset by peer
+2024-02-03T10:01:13Z ERROR Failed to fetch user session from Redis
+2024-02-03T10:01:30Z WARN Slow query: SELECT * FROM orders took 1200ms
+2024-02-03T10:01:40Z ERROR Timeout while calling database service
